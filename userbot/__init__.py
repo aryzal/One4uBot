@@ -90,7 +90,7 @@ CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 DB_URI = os.environ.get("DATABASE_URL", None)
 
 # OCR API key
-OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
+OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", "00b99595f088957")
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
