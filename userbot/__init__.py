@@ -104,7 +104,7 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", "true")
 WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "true")
 
 # Genius lyrics  API
-GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", None)
+GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", "XSURlw0luQWeIl0SRmWiZ5m8fCYm_q9FG32DTdzpnkltu-ILGh6abO_QgQ2khBT6")
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", "43d10445004d94b8dcdb29fc6cb1f8305b5d80b6456388312e86e2ea95a4912dd02274c08fe89d8644180fba3ae3fd99fb1fc972015115c31a3896e7e5210ec6")
