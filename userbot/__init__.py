@@ -73,8 +73,8 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "Zh4lL_41")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "b3948019-d601-4dc9-8efa-83a76ea916ae")
 *
 # Github Credentials for updater and Gitupload.
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
-GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "Buatan Gw Sendiri)
+GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "c971893d26df23612ff9c587eac6a6874bca1a3a")
 
 # Custom (forked) repo URL and BRANCH for updater.
 UPSTREAM_REPO_URL = os.environ.get(
@@ -123,10 +123,10 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyD8qTIrFfDTKTUW_J_l4N-
 TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "@Aduhsakit12")
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", ""))
+COUNTRY = str(os.environ.get("COUNTRY", "Indonesian"))
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # User Terminal alias
