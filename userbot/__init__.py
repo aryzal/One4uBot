@@ -139,8 +139,8 @@ CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
-LASTFM_API = os.environ.get("LASTFM_API", "1ff3feba6a27995d58eda1cfbe3947d4")
-LASTFM_SECRET = os.environ.get("LASTFM_SECRET", "06e1a85a03686b06b4fb54d89a29c3a8")
+LASTFM_API = os.environ.get("LASTFM_API", "ded4db04d7cbd8e993ecc3a7e91bd80f")
+LASTFM_SECRET = os.environ.get("LASTFM_SECRET", "a42854dffa656ae0ae52322839293945")
 LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", "Aryzal")
 LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", "Aryzal12-")
 LASTFM_PASS = md5(LASTFM_PASSWORD_PLAIN)
@@ -150,7 +150,7 @@ if LASTFM_API and LASTFM_SECRET and LASTFM_USERNAME and LASTFM_PASS:
                            username=LASTFM_USERNAME,
                            password_hash=LASTFM_PASS)
 else:
-    lastfm = None
+    lastfm = True
 
 # Google Drive Module
 G_DRIVE_DATA = os.environ.get("G_DRIVE_DATA", None)
