@@ -58,10 +58,10 @@ API_HASH = os.environ.get("API_HASH", "eca1762f362772ec4aee2c4c4b4eb551")
 STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOIYBu7k2hGmriiKR6FsgCkEWZ-aHFFPbk0KkyZLXKWVmWnA1MI7dsWwc-Gri_kWWsl-hUu98f6a4-WhSPs6K8V9frvEaTpmrUxM2CW62rLzV1lRzn2uMloFAXpZKCA4OjjZiu2FAxolLME9lcHMyxyorIALnqTZY5Iv150OiN8tOjkgKTwgxUB1LS9kg77irYyYchq1g6n6BMdrGqz7a3hJKXnHDtun3j4yEQk9qWaiJJqEER25Xfcmeof-X2CGSsiVaG0YFkWHHZDwucOO863ByVNuneo-ooJw4bSIAwcxWPUJrqRfGZWwnIC9Cyb7m19J7H77Uk-xYcOIdr35folbq2no=")
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "-1001160913510)
 
 # Userbot logging feature switch.
-BOTLOG = sb(os.environ.get("BOTLOG", "False"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
 LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "True"))
 
 # Bleep Blop, this is a bot ;)
