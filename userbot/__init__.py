@@ -35,7 +35,7 @@ LOGS = getLogger(__name__)
 
 if version_info[0] < 3 or version_info[1] < 8:
     LOGS.info("You MUST have a python version of at least 3.8."
-              "Multiple features depend on this. Bot quitting.")
+              "Multiple features depend on this. Bot quitting.")2
     quit(1)
 
 # Check if the config was edited by using the already used variable.
@@ -136,8 +136,8 @@ USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS", "One4uBot")
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm Module
-BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "True")
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO", "True")
 
 LASTFM_API = os.environ.get("LASTFM_API", "ded4db04d7cbd8e993ecc3a7e91bd80f")
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", "a42854dffa656ae0ae52322839293945")
