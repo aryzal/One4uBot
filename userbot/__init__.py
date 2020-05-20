@@ -73,7 +73,7 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "Zh4lL_41")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "b3948019-d601-4dc9-8efa-83a76ea916ae")
 *
 # Github Credentials for updater and Gitupload.
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "Buatan Gw Sendiri)
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "Buatan Gw Sendiri")
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "c971893d26df23612ff9c587eac6a6874bca1a3a")
 
 # Custom (forked) repo URL and BRANCH for updater.
