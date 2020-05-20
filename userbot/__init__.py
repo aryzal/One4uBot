@@ -136,13 +136,13 @@ USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS", "One4uBot")
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm Module
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "True")
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO", "True")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "")
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO", "")
 
-LASTFM_API = os.environ.get("LASTFM_API", "ded4db04d7cbd8e993ecc3a7e91bd80f")
-LASTFM_SECRET = os.environ.get("LASTFM_SECRET", "a42854dffa656ae0ae52322839293945")
-LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", "Aryzal")
-LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", "Aryzal12-")
+LASTFM_API = os.environ.get("LASTFM_API", "")
+LASTFM_SECRET = os.environ.get("LASTFM_SECRET", "")
+LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", "")
+LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", "")
 LASTFM_PASS = md5(LASTFM_PASSWORD_PLAIN)
 if LASTFM_API and LASTFM_SECRET and LASTFM_USERNAME and LASTFM_PASS:
     lastfm = LastFMNetwork(api_key=LASTFM_API,
