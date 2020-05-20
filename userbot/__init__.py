@@ -110,7 +110,7 @@ GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", "QPpaaYt4A9KsyjzjNp_7ShWftOUwJBB1
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", "43d10445004d94b8dcdb29fc6cb1f8305b5d80b6456388312e86e2ea95a4912dd02274c08fe89d8644180fba3ae3fd99fb1fc972015115c31a3896e7e5210ec6")
 
 # Quotes API Token
-QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
+QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", "cd2213fa-1670-44ad-bec6-841cba6aad16")
 
 # Anti Spambot Config
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
